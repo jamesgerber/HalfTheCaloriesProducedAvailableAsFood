@@ -13,16 +13,19 @@ Some notes:
 
 anyone running these codes will have to undertake a few things:
 
-(1) make the 'datagateway' codes and directory work.  The codes in the 'datagateway' directory all require public domain datasets to be downloaded and installed on users' computer. 
-I can't automate this because I don't want to republish others' data. 
 
-(2) start with FoodFeedAllocationScript.m ... this sets up the path, and
+(1) start with FoodFeedAllocationScript.m ... this sets up the path, and
 should be run from a working directory.  Directories will be created within
 this working directory.   I have had a working directory along with these
 files:
 FoodFeedAllocationScript - script that calls everything else 
 HalfCaloriesLocalEnvironment - hard wire for your own directory structure
 PCUconstants - a bunch of constants related to "Pertubative Crop Update"
+
+(2) Depending on what parts of the code you want to play around with, you
+will have to make the 'datagateway' codes and directory work.  The codes in 
+the 'datagateway' directory all require public domain datasets to be downloaded and installed on users' computer. 
+I can't automate this because I don't want to republish others' data.
 
 (3) Notes on HalfCaloriesLocalEnvironment.m: you'll have to
 adapt this for your own path structure.  Note that this file is in .gitignore
